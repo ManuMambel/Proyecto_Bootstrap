@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Tag de Viewport -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> <!-- CDN de Bootstrap del CSS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> <!-- CDN de Bootstrap del JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script><!-- CDN de la librería de Jquery  -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> <!-- CDN de la librería de Popper  -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Mambel Web Developer</title>
+</head>
+<body>
+      <header class="p-3 bg-dark text-white">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="../index.html" class="nav-link px-2 text-secondary">Home</a></li>
+              <li><a href="../sections/Services.html" class="nav-link px-2 text-white">Services</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Clients</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">About Us</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+              <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+            </form>
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2">Login</button>
+              <button type="button" class="btn btn-warning">Sign-up</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="container">
+            <br>
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+              
+              <!-- Carousel Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1" ></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+                <li data-target="#carousel" data-slide-to="3"></li>
+              </ol>
+          
+              <!-- Wrapper for Slides -->
+              <div class="carousel-inner" role="listbox">
+          
+                <div class="item active">
+                  <img src="../assets/Imag1.jpg" width="950" height="400">
+                  <div class="carousel-caption">
+                    <h3 class="ImagenCarrusel">E-Store</h3>
+                    <p class="ImagenDescripcion">Offer your products and service to all the world</p>
+                  </div>
+                </div>
+          
+                <div class="item">
+                  <img src="../assets/Imag2.jpg" width="950" height="400">
+                  <div class="carousel-caption">
+                    <h3 class="ImagenCarrusel">Web Desing</h3>
+                    <p class="ImagenDescripcion">We will create an unique desing for your website or app that reflects the best characteristics of your business</p>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <img src="../assets/Imag3.jpg" width="950" height="400">  
+                  <div class="carousel-caption">
+                    <h3 class="ImagenCarrusel">Web and Apps Programming</h3>
+                    <p class="ImagenDescripcion">We will develop an complete and functional website or app that fulfill all the unique necessities of your business   </p>
+                  </div>
+                </div>           
+              </div>
+          
+              <!-- Left and Right Control Links -->
+              <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              </a>
+            </div>
+          </div>
+      </main>
+      <br>
+      <footer>
+        <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropup">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdown10">
+                    <li><a class="dropdown-item" href="#">About Us</a></li>
+                    <li><a class="dropdown-item" href="#">Clients</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </footer>
+<body>
+    
